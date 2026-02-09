@@ -15,8 +15,8 @@
     <main>
       <form>
         <div>
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name" required minlength="2" pattern="[A-Za-z\s]+"> 
+          <label for="name">Name(only letters, spaces and symbols are allowed)</label>
+          <input type="text" name="name" id="name" required minlength="2" pattern="[A-Za-z\s\W_]+"> 
         </div>
         <br>
         <div> 
