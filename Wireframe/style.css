@@ -19,6 +19,17 @@ header {
   text-align: center;
 }
 
+a {
+  padding: var(-space);
+  border: var(--line);
+  max-width: fit-content;
+}
+img,
+svg {
+  width: 100%;
+  object-fit: cover;
+}
+
 main {
   padding-bottom: 5rem;
   display: grid;
