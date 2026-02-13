@@ -4,7 +4,7 @@
   --font: 100%/1.5 system-ui;
   --space: clamp(6px, 6px + 2vw, 15px);
   --line: 1px solid;
-  --container: 3000px
+  --container: 1280px
 }
 
 body {
@@ -32,7 +32,7 @@ header {
 }
 
 main {
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--space);
