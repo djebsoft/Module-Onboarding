@@ -26,7 +26,8 @@ a {
 }
 img,
 svg {
-  width: 100%;
+  width: 50%;
+  hight: 100%;
   object-fit: cover;
 }
 
