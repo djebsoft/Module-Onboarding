@@ -1,5 +1,5 @@
 :root {
-  --paper: oklash(7 0 0);
+  --paper: oklab(7 0 0);
   --ink: color-mix(in oklab, var(--color) 5%, black);
   --font: 100%/1.5 system-ui;
   --space: clamp(6px, 6px + 2vw, 15px);
@@ -20,7 +20,7 @@ a {
 }
 img,
 svg {
-  width: 20%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -50,13 +50,14 @@ article {
   border: var(--line);
 }
 
-> * {
+article > * {
   grid-column: 2 / 3;
   
 }
 
-> img {
+article > img {
   grid-column: span 3;
+  height: 250px;
   }
 
 footer {
