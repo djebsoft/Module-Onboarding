@@ -20,14 +20,13 @@ a {
 }
 img,
 svg {
-  width: 50%;
-  hight: 50%;
+  width: 20%;
   object-fit: cover;
 }
 
 header {
   background-color: #d3d3d3;
-  padding: 1.5rem;
+  padding: 1rem;
   text-align: center;
 }
 
