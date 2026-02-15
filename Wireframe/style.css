@@ -31,18 +31,16 @@ header {
 }
 
 main {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--space);
   max-width: var(--container);
   margin: 0 auto calc(var(--space) * 4) auto;
-}
-
-main> article:first-child {
+> *:first-child {
   grid-column: span 2;
+  }
 }
-
 article {
   padding-bottom: var(--space);
   text-align: left;
@@ -51,12 +49,12 @@ article {
   border: var(--line);
 }
 
-article > * {
+> * {
   grid-column: 2 / 3;
   
 }
 
-article > img {
+> img {
   grid-column: span 3;
   }
 
