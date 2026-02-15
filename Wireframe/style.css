@@ -43,6 +43,7 @@ main {
 }
 article {
   padding-bottom: var(--space);
+  padding-left: 20px;
   text-align: left;
   display: grid;
   grid-template-column: var(--space) 1fr var(--space);
